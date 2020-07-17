@@ -4,29 +4,32 @@
 }
 
 header{
-    padding: 5px;
     display: flex;
     background-color: rgb(26, 3, 3);
     color: white; 
-    flex: row;
     font-size: 34px;
-    list-style:none;
-
 }    
 
 #titulo-principal{
-    font-size: 70px;
+    font-size: 50px;
     color: white; 
 }
 
 a:active{
-    background-color: turquoise;
+    background-color: turquoise;   
 }
 
 a.navegacion{
     color: white;
+}
+
+.navegacion {
+    text-decoration: none;
+    }
+
+ul{
     list-style:none;
-    
+    text-decoration: none;
 }
 
 #imagen-principal{
@@ -34,35 +37,39 @@ a.navegacion{
 }
 
 .body{
-  
-  padding: 34px;
+  padding: 5px;
 } 
 
 main{
-    flex: row;
+    display: flex;
+    align-content: center;
     justify-content: space-between;
-    width: 21px;
+    width: 25px;
+}
+
+h2, h3, h4 {
+    font-size: 30px;        
 }
 
 .articulos-relacionados{
+    display: flex;
     background-color: rgb(120, 25, 25);
     color: rgb(172, 92, 70);
 }
-
-section{
-    background-color: rgb(65, 7, 7);
-    color: rgb(172, 92, 70);
-}
-
-h2 h3 {
-    font-size: 25px;
-}
-
 
 p{
     font-size: 21px;
 }
 
+article{
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    background-color: rgb(65, 7, 7);
+    color: rgb(172, 92, 70);
+}
 
 footer {
     text-align: center;
