@@ -1,78 +1,104 @@
 *{
     box-sizing: border-box;
     font-family:'Raleway', sans-serif; 
+    margin: 0px;
 }
 
 header{
-    display: flex;
-    background-color: rgb(26, 3, 3);
-    color: white; 
-    font-size: 34px;
-}    
-
-#titulo-principal{
-    font-size: 50px;
-    color: white; 
-}
-
-a:active{
-    background-color: turquoise;   
-}
-
-a.navegacion{
+    background-color: #180e0b; 
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 34px;
+    padding-right: 34px;
+    height: 89px;
+}   
+
+h1{
+    font-size: 34px;
 }
 
-.navegacion {
-    text-decoration: none;
-    }
+nav ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+nav ul li + li {
+    margin-left: 21px;
+}
+
+nav a {
+    color: white;
+    padding: 13px;
+    border-radius: 5px;  
+    text-decoration: none;  
+}
+
+ a.navegacion {
+    background-color:#56c9d6;   
+ }
 
 ul{
     list-style:none;
     text-decoration: none;
 }
 
-#imagen-principal{
-    width:100%;
+img{
+    width: 100%;
+
 }
 
-.body{
-  padding: 5px;
-} 
+#imagen-principal{
+    height: 600;
+    object-fit: cover;
+    object-position: center;
+}
 
 main{
     display: flex;
-    align-content: center;
-    justify-content: space-between;
-    width: 25px;
+    margin-top: 100px;
+    text-align: center;
 }
 
 h2, h3, h4 {
-    font-size: 30px;        
+    font-weight: 700; /*bold*/
+    font-size: 34px;       
 }
 
 .articulos-relacionados{
     display: flex;
+    justify-content: center;
     background-color: rgb(120, 25, 25);
-    color: rgb(172, 92, 70);
+    color: rgb(172, 92, 70);  
 }
 
 p{
     font-size: 21px;
 }
 
-article{
-    justify-content: space-between;
-}
-
 section{
-    display: flex;
+    display:flex;
+    justify-content: space-between;
     background-color: rgb(65, 7, 7);
     color: rgb(172, 92, 70);
 }
-
-footer {
+  
+.otros{
+    background-color: #180e0b;
+    color: #b4654d;
     text-align: center;
-    color: rgb(172, 92, 70);
-    background-color: rgb(26, 3, 3);
+} 
+
+.otros:active{
+    
+}
+ 
+
+footer{
+    text-align: center;
+    color: #b4654d;
+    background-color: #030201;
+    padding: 34px 89px;
 }
